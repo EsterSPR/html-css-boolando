@@ -146,6 +146,33 @@ section {
     background-image: url(../img/3b.webp);
 }
 
+#foto4 {
+    background-image: url(../img/4.webp);
+    transition: 0.3s;
+}
+
+.product:hover #foto4{
+    background-image: url(../img/4b.webp);
+}
+
+#foto5 {
+    background-image: url(../img/5.webp);
+    transition: 0.3s;
+}
+
+.product:hover #foto5{
+    background-image: url(../img/5b.webp);
+}
+
+#foto6 {
+    background-image: url(../img/6.webp);
+    transition: 0.3s;
+}
+
+.product:hover #foto6{
+    background-image: url(../img/6b.webp);
+}
+
 /*caption*/
 
 .caption {
