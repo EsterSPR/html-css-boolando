@@ -60,10 +60,12 @@ main {
 section {
     width: 100%;
     margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .product {
-    width: calc(100%/3 - 50px);
+    width: calc(100%/3);
 }
 
 .margin-right {
@@ -124,6 +126,24 @@ section {
 
 .product:hover #foto1{
     background-image: url(../img/1b.webp);
+}
+
+#foto2 {
+    background-image: url(../img/2.webp);
+    transition: 0.3s;
+}
+
+.product:hover #foto2{
+    background-image: url(../img/2b.webp);
+}
+
+#foto3 {
+    background-image: url(../img/3.webp);
+    transition: 0.3s;
+}
+
+.product:hover #foto3{
+    background-image: url(../img/3b.webp);
 }
 
 /*caption*/
