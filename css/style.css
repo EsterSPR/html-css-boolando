@@ -12,6 +12,9 @@ header {
     background-color: #FF6900;
     color: #fff;
     padding: 20px 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 #header-col-container {
@@ -54,14 +57,14 @@ img[alt="logo-boolean"] {
 
 main {
     width: 80%;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 
 section {
     width: 100%;
-    margin: 50px 0;
     display: flex;
     justify-content: space-between;
+    margin: 50px 0;
 }
 
 .product {
@@ -102,19 +105,18 @@ section {
     color: #fff;
     bottom: 40px;
     font-weight: 800;
+    display: flex;
 }
 
 .discount {
     background-color: #FF0100;
     margin-right: 5px;
     padding: 3px 10px;
-    float: left;
 }
 
 .sustainability {
     background-color: #048001;
     padding: 3px 10px;
-    float: left;
 }
 
 /*immagini*/
